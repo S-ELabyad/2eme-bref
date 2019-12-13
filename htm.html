@@ -1,0 +1,166 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <meta charset="UTF_8" initial-scale="4"/>
+        <title> YouCode </title>
+        <link rel="stylesheet" href="acceuil.css">
+        <style>
+                .mySlides {display:none;}
+                </style>
+         
+    </head>
+    <body>
+        <div id="header">
+                <div id="Logo"> <img src="photo.png"></div>
+              
+                <ul>
+                        <li><a href="htm.html" style="margin-left: 240px;margin-top: 5px;">Acceuil</a></li>
+                        <li><a href="ounoustrouve.html" style="margin-left: 100px;">Ou nous trouver<a></li>
+                        <li> <a href="dispose.html" style="margin-left: 100px;">Dispose<a></li>
+                            <li><a href="agenda.html" style="margin-left: 100px;">Calendrier</a></li>   
+                        </ul>
+              <button id="btn">INSCRIS-TOI</button>  
+        </div>
+        <div id="public"><p> Une école 100% gratuite </p> </div>
+        <div id="public1"><p> UNE FORMATION GRATUITE ET PROFESSIONELLE </p> </div>
+        
+        <div ><button id="btn1" >INSCRIS-TOI</button></div>
+        <div><button id="btn2">DECOUVRE L'ECOLE</button></div>
+    </div>
+    
+    <h1 id="titr1">L'école YouCode</h1>
+    <p id="txt1">
+        Le numérique et les nouvelles technologies sont partout autour de nous, 
+        mais leur code et leur langage ne sont pas toujours naturels et innés pour tous. La fracture entre
+         ceux qui parlent le « numérique » et le manipulent avec aisance et les autres est souvent très grande.
+         C’est pourquoi YouCode veut mettre le code entre toutes les mains pour réduire les inégalités numériques
+         et donner sa chance à tout un chacun.</p>
+     <div id="contener">
+         <div id="articl1"> <img id="img1" src="Icon awesome-heart.png"> 
+        <h3 id="titr2">  Apprendre sans barrières</h3>
+        <p id="txt2">Car peu importe votre niveau d’études,
+            votre sexe ou encore votre pouvoir d’achat
+           , chacun(e ) est le/la bienvenu(e) à YouCode. 
+           Aucun diplôme n’est requis. Nous valorisons 
+           la passion pour la technologie et l’envie
+            d'apprentissage.</p>
+        </div>
+        <div id="articl2"> <img id="img2" src="Icon awesome-bolt.png">
+        <h3 id="titr3">Une méthodologie innovante</h3>
+        <p id="txt3">100% pratique et axée sur les technologies
+            les plus demandées du marché, YouCode
+            utilise un programme d'apprentissage basé
+            sur les projets, utilisant la technologie et
+            la recherche pour relier les
+            concepts à la réalité du marché du travail.</p>
+        </div>
+        <div id="articl3"> <img id="img3" src="Icon awesome-cog.png">
+        <h3 id="titr4">Gratuite & intensive</h3>
+        <p id="txt4">A YouCode la formation est entièrement 
+            gratuite. Dotés d’ordinateurs à la pointe de
+             la technologie,
+             vous apprendrez comme si vous étiez en entreprise
+            , du lundi au vendrede de 09h00 à 17H00.</p>    
+        </div>
+
+    </div>
+       <div id="contener1"> 
+            <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="IMG2.png" style="width:50%" height="525px">
+                    <img class="mySlides" src="r2.png" style="width:50%" height="525px">
+                    <img class="mySlides" src="img.png" style="width:50%" height="525px">
+                    <button class="w3-button w3-black w3-display-left" 
+                    onclick="plusDivs(-1)" style="height: 10%; margin-top: -16% ;">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right"
+                     onclick="plusDivs(1)" style="height: 10%; margin-left: 47%; margin-top: -16%;">&#10095;</button>
+                  </div>
+            
+            <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+                  
+
+
+
+
+
+
+
+             <div id="contener2">
+             <h2 id="para1">C'est quoi YouCode ?</h2>
+             <h3 id="para2">"Une école à la pointe de la modernité" </h3>
+             <p id="para3">
+                YouCode… Ce n’est pas un simple nom. C’est toute une philosophie. 
+                YouCode est une école inclusive qui ouvre les chances à tous. You… comme…
+                 toi. YouCode place l’individu au centre de sa pédagogie en même temps qu’elle
+                 l’aide à développer une synergie de travail avec les autres . Code… comme code. 
+                Du site web aux algorithmes en passant par les applis. Située dans des villes comme
+                 Youssoufia ou Safi, un endroit idéal pour y étudier le code, loin de l’effervescence
+                 des grandes villes.</p> </div> 
+       </div>
+
+       <div id="contener3">
+             <h2 id="para4">POWERED By </h2>
+             <h3 id="para5">Simplon.co </h3>
+       </div>
+        
+       <div id="contener4">
+          <div id="articl4">
+          <p id="para6">2265</p>
+          <p id="para7">Simploniens dans le monde</p> </div>
+
+          <div id="articl5">
+           <p id="para8">87%</p>  
+           <p id="para9">  De sorties positives aprés 6
+                mois formation</p> </div>
+          
+           <div id="articl6">
+           <p id="para10">53</p>
+           <p id="para11">Fabriques ouverts en France
+                et à l'international</p>
+           </div>
+       </div>
+
+       <p id="text1"> <br> <strong>SIMPLON.co</strong> est un réseau de fabriques numériques et inclusives en France et à l’étranger. 
+            L’école a formé plus de 2000 aux métiers du numérique depuis 2013.
+            <br> SIMPLON.co une entreprise sociale et solidaire qui veut faire du numérique un véritable l
+            evier d’inclusion et révéler des talents parmi des publics peu représentés dans le secteur.
+            Simplon conseille les entreprises dans leur transformation digitale et parfois
+             réalise leurs sites et leurs applications.</p>
+
+        <h1 id="titre1">Créé et sponsorisé par</h1>   
+        <img id="photo2" src="ocp.png">
+        
+        <p id="titre2">Inscris-toi dès maintenant</p>
+        <button id="btn3">INSCRIS-TOI</button> 
+
+        <div id="footer">
+        <footer >
+        <p id="footer1">Contactez-nous sur:</p>
+        <p id="footer2">support@Youcode.ma</p>
+        <p id="footer3">YouCode © 2019</p>
+        <p id="footer4">Suivez-nous sur les réseaux sociaux</p>
+        <img id="footer5" src="Icon awesome-facebook.png">
+        <img id="footer6" src="Icon awesome-twitter.png">
+        <img id="footer7" src="Icon awesome-linkedin-in.png">
+        <img id="footer8" src="Icon zocial-youtube.png">
+        </footer> </div>
+    </body>
+
+</html>

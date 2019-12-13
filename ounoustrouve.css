@@ -1,0 +1,217 @@
+#header{
+    margin: 0;
+    padding: 0;
+    background-image:url("header.png") ;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    padding-top: 30px;
+    
+    }
+    #Logo
+    {
+        width: 250px;
+        background-size: 100px;
+        float: left;
+        padding-left:100px; ;
+    
+    }
+    #btn
+    {
+        border-radius:50px ;
+        margin-left: 60%;
+        height: 8%;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: #038DFE;
+        font-size: 20px;
+        color: white;
+    }
+    #Logo img
+     {
+        width: 100%;
+        
+     }
+     table 
+     {
+        font-size: 35px;
+        color: white;
+        padding-left:200px;
+        
+     }
+     table a:hover{
+         color: #038DFE;
+        
+     }
+     td 
+     {
+         padding-left: 40px;
+     }
+     #btn:hover{
+         color: #038DFE;
+         background-color: white;
+         
+     }
+     #public {
+         color: white;
+         margin-top: -400px;
+         font-size: 35px;
+         background-color: none;
+         padding-left: 20px;
+     }
+     #public1 {
+         color: white;
+         font-size: 20px;
+         padding-left: 25px;
+         background-color: none;
+     }
+    #btn1{
+        border-radius:50px ;
+        margin-left: 20px;
+        height: 5%;
+       background-color: black;
+       padding-left: 40px;
+       padding-right: 40px;
+       margin-top: 30px;
+       font-size: 20px;
+       color: white;
+    }
+    #btn1:hover{
+        color: #038DFE;
+        background-color: white;
+    }
+    #btn2{
+        border-radius:50px ;
+        margin-left: 250px;
+        height: 5%;
+       background-color:#038DFE ;
+       padding-left: 100px;
+       padding-right: 100px;
+       margin-top: -60px; 
+       font-size: 20px;
+       color: white;
+    }
+    #btn2:hover{
+        color: #038DFE;
+        background-color: white;
+    }
+    #titre1 {
+        color: #038DFE;
+        font-size: 55px;
+        margin-top: 8%;
+        text-align: center;
+    }
+    #contener {
+        margin-top: 5%;
+
+    }
+    #texte1 {
+      font-size: 35px;
+      line-height: 1.9; 
+      margin-left: 20px;
+     
+    }
+    #titre2 {
+        font-size:  55px;
+        color: #038DFE;
+        text-align: center;
+        margin-top: 5%;
+    }
+    #texte2 {
+        margin-top: 3%;
+        font-size: 35px;
+        color: #4185A7;
+        text-align: center;
+    }
+    #photo1 {
+        width: 100%;
+        height: 60%;
+        margin-top: 3%;
+    }
+    #titre3 {
+        font-size: 40px;
+        margin-top: 8%;
+        padding-left: 6%;
+    }
+    #button {
+        border-radius:50px ;
+        margin-left: 50%;
+        height: 8%;
+        background-color:#038DFE ;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 35px;
+        margin-top: -6.5%;
+        color: white;
+    
+    }
+    #button:hover {
+        color: #038DFE;
+        background-color: whitesmoke;
+    }
+    #footer {
+        background-color: black;
+        width: 100%;
+        height: 25%;
+        display: flex;
+    }
+    
+    #footer1 {
+        color:#8D8D98;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 30px;
+      
+    }
+    #footer2 {
+        color:#038DFE;
+        font-size: 25px;
+        margin-left: 25px;
+        border-bottom:1px solid #038DFE ;margin-right: 1900px;
+    }
+    #footer3 {
+        color: #F3F3F7;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    
+    #footer4 {
+        color: #8D8D98;
+        font-size: 40px;
+        margin-top: -11%;
+        margin-left: 1350px;
+        
+    }
+    #footer5 {
+       width: 2%;
+       margin-left: 1400px;
+    }
+    #footer6 {
+        width: 2%;
+        margin-left: 1500px;
+        margin-top: -45px;
+    }
+    #footer7 {
+        width: 2%;
+        margin-left: 1600px;
+        margin-top: -45px;
+    }
+    #footer8 {
+        width: 2%;
+        margin-left: 1700px;
+        margin-top: -45px;
+    }
+    #header ul li {
+        list-style-type: none;
+        float: left;
+    }
+    #header ul li a{
+        text-decoration: none;
+        font-size: 35px;
+        color: white;
+        
+    }
+    
